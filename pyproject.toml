@@ -1,0 +1,18 @@
+[project]
+name = "recsys"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "catboost==1.2.8",
+    "implicit==0.7.2",
+    "notebook>=7.4.7",
+    "numpy==2.3.3",
+    "optuna>=4.5.0",
+    "pandas==2.3.3",
+    "rectools[all]==0.17.0",
+    "requests==2.32.5",
+    "scikit-learn==1.7.2",
+    "scipy==1.16.2",
+]

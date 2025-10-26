@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Большие данные
+notebooks/data_original/
+notebooks/kion.zip
+notebooks/__MACOSX/
+
+# Другие типы файлов которые не нужно коммитить
+*.zip
+*.csv
+__MACOSX/
